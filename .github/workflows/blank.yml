@@ -31,6 +31,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: bash createvm.sh
+        run: bash assignment10/createvm.sh
         env: #
          GOOGLE_OAUTH_ACCESS_TOKEN: ${{ secrets.GCP_ACCESS_TOKEN }}
